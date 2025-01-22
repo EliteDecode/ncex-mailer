@@ -1,0 +1,146 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Container layout */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+/* Header styles */
+.logo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo img,
+.footer-logo img {
+  height: 40px;
+}
+
+/* Content area styles */
+.content {
+  padding: 0 15px;
+  height: 10vh;
+}
+
+.greetings {
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.action-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.action-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+.reminder {
+  padding: 15px;
+  border-radius: 6px;
+  margin: 2px 0;
+  font-size: 12px;
+  text-align: center;
+  color: #666;
+}
+
+/* Footer navigation */
+.footer-links {
+  text-align: center;
+  margin: 2px 0 15px 0px;
+}
+
+.footer-links a {
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 2px;
+  font-size: 10px;
+}
+
+/* Platform features section */
+.qualities {
+  text-align: center;
+  margin-top: 2px;
+}
+
+.qualities h5 {
+  font-size: 8px;
+  font-weight: lighter;
+  color: #666;
+}
+
+/* App download buttons */
+.app-downloads {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px auto;
+  width: 50%;
+}
+
+.app-button {
+  width: 50%;
+}
+
+.app-button img {
+  width: 100%;
+}
+
+/* Social media section */
+.socials {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.socials p {
+  font-size: 10px;
+  color: #666;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+  margin: 10px auto;
+}
+
+.social-icon img {
+  width: 100%;
+}
+
+/* Copyright */
+.copyright {
+  text-align: center;
+  color: #666;
+  font-size: 10px;
+  margin-top: 25px;
+}
