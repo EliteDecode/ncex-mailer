@@ -34,8 +34,29 @@ body {
 
 /* Content area styles */
 .content {
-  padding: 0 15px;
-  height: 10vh;
+  padding: 0 0px;
+  margin: 25px 0px;
+}
+
+.content .opening-msg {
+  font-size: 11px;
+  color: #666;
+}
+
+.content .code-msg {
+  margin: 15px 0px 15px 15px;
+  font-size: 20px;
+  color: #0066cc;
+}
+.content .validity-msg {
+  font-size: 11px;
+  color: #666;
+}
+
+.content .note-msg {
+  font-size: 11px;
+  margin-top: 10px;
+  color: #666;
 }
 
 .greetings {
