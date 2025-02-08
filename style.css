@@ -154,6 +154,16 @@ body {
   margin: 10px auto;
 }
 
+@media (min-width: 0px) and (max-width: 575px) {
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+    margin: 10px auto;
+  }
+}
+
 .social-icon img {
   width: 100%;
 }
